@@ -11,3 +11,8 @@ To compile the index.ts file, run the following command:
 ```
 npx tsc index.ts
 ```
+
+## How to create a tsconfig.json file
+```
+npx tsc --init
+```
