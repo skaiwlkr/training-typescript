@@ -13,3 +13,10 @@ isStudent = false;
 let planet = "Mars";
 let moons = 2;
 let isLarge = false;
+
+// 01-03 VARIABLES WITH NULL AND UNDEFINED
+let something: null;
+let anotherThing: undefined;
+
+something = null;
+anotherThing = undefined;
