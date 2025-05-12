@@ -16,4 +16,4 @@ logs
 !.env.example
 
 # Compiled output
-index.js
+dist/*
