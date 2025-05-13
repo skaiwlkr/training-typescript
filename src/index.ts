@@ -37,10 +37,15 @@ fruits.push("orange");
 const f = fruits[3];
 const t = things[0];
 
+// 03 OBJECTS
+// Definition of object
+let user: {id: number, firstName: string, lastName: string, age: number, isStudent: boolean} = {
+    id: 1,
+    firstName: "John",
+    lastName: "Doe",
+    age: 31,
+    isStudent: true
+}
 
-// Show arrays
-console.log(names);
-console.log(ages);
-console.log(fruits);
-console.log(f);
-console.log(t);
+// Overwrite properties of objects
+user.id = 2;
